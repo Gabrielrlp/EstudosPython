@@ -6,6 +6,6 @@ area = altura * largura
 
 resultado = area / 2
 
-area = print("A area a ser pintada é de {}m²".format(area))
+print("A area a ser pintada é de {}m²".format(area))
 
-resultado = print("A quantidade de tinta em litros é {}l".format(resultado))
+print("A quantidade de tinta em litros é {}l".format(resultado))
