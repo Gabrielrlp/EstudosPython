@@ -1,5 +1,9 @@
-dia = input('Digite o dia que vc nasceu: ')
-mes = input('Digite o mes que vc nasceu: ')
-ano = input('Digite o ano que vc nasceu: ')
+n1 = float(input('Digite o primeiro número: '))
 
-print('Você nasceu dia', dia, 'de', mes, 'de', ano, ', Correto?')
+n2 = float(input('Digite o segundo número: '))
+
+n3 = float(input('Digite o terceiro número: '))
+
+n4 = n1 + n2 + n3
+
+print('A soma desses numero é' , n4)

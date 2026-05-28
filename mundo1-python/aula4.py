@@ -1,9 +1,11 @@
-frase = 'Curso em Video Python'
+# ex de biblioteca 
+from math import sqrt, floor
+num = int(input('Digite um número: '))
 
-print(frase.split())
+raiz = sqrt(num)
+print('A raiz de {} é igual a {}'.format(num, raiz))
 
-# print('Curso' in frase)
-
-# print(frase.replace('Python', 'Android'))
-
-# print(len(frase))
+# ex de biblioteca 2
+import random
+num = random.randint(1, 10)
+print(num)
